@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#3367D6"/>
+    <title>UK English Proofreader</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <header>
+        <h1>UK English Proofreader</h1>
+        <p>Proofread up to 5,000 words in United Kingdom English.</p>
+    </header>
+
+    <main>
+        <div class="editor-container">
+            <textarea id="text-input" placeholder="Paste your text here..." spellcheck="false"></textarea>
+            <div id="status-bar">
+                <span id="word-count">0 / 5000 words</span>
+                <span id="error-message" class="error"></span>
+            </div>
+        </div>
+
+        <button id="proofread-btn">Proofread Text</button>
+
+        <div id="results-container">
+            <h2>Suggestions</h2>
+            <div id="results" class="results-box">
+                <p>Suggestions will appear here after you proofread your text.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Powered by <a href="https://languagetool.org/" target="_blank" rel="noopener">LanguageTool</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "UK English Proofreader",
+    "short_name": "Proofreader",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#f5f5f5",
+    "theme_color": "#3367D6",
+    "description": "A simple PWA to proofread up to 5000 words in UK English.",
+    "icons": [
+        { "src": "icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+        { "src": "icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+    ]
+}
